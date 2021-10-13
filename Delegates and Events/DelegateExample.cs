@@ -14,7 +14,7 @@ public class DelegateExample : MonoBehaviour {
 		//delegate with an int return type
 		public delegate int MyTestDelegate(float valueToBeRounded);
 
-		//creating an instance of the delegate. Points to the above delegate
+		//creating an instance of the delegate. Points to the above delegate. Member variable
 		private MyTestDelegate newtestDelegate;
 
 
